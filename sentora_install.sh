@@ -70,7 +70,7 @@ ARCH=$(uname -m)
 
 echo "Detected : $OS  $VER  $ARCH"
 
-if [[ "$OS" = "CentOs" && ("$VER" = "6" || "$VER" = "7" ) || 
+if [[ "$OS" = "CentOs" && ("$VER" = "6" || "$VER" = "7" || "$VER" = "8") || 
       "$OS" = "Ubuntu" && ("$VER" = "12.04" || "$VER" = "14.04" ) || 
       "$OS" = "debian" && ("$VER" = "7" || "$VER" = "8" ) ]] ; then
     echo "Ok."
